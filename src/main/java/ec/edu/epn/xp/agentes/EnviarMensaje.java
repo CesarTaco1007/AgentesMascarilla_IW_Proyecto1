@@ -15,6 +15,22 @@ public class EnviarMensaje {
         System.out.println("Porceso enviar mensaje: " + toString());
     }
 
+    public int messageSend(){
+        return 1;
+    }
+
+    public int messageFailure(){
+        return 0;
+    }
+
+    public int messageTempOK(){
+        return 1;
+    }
+
+    public int messageTempF(){
+        return 0;
+    }
+
     public int getCodigo() {
         return codigo;
     }
