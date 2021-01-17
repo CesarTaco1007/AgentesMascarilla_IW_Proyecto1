@@ -35,13 +35,13 @@ public class AgentesExecute {
         if (ae.codigo == 100 && ar.codigo == 200 && flag){
 
             System.out.println("Esta puesto mascarilla");
-            if (t.getValorTemperatura()=="37.5"){
+            if (t.getValorTemperatura().equalsIgnoreCase("37.5")){
                 System.out.println("Su temperatura es: "+t.getValorTemperatura());
             }
             System.out.println("PUEDE PASAR ----> Recibi la imagen "+img.getFuente());
         }else{
             System.out.println("NO Esta puesto mascarilla");
-            if (t.getValorTemperatura()!="37.5"){
+            if (!t.getValorTemperatura().equalsIgnoreCase("37.5")){
                 System.out.println("Su temperatura es: "+t.getValorTemperatura());
             }
             System.out.println("NO PUEDE PASAR ----> Recibi la imagen "+img.getFuente());
