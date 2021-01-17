@@ -52,6 +52,27 @@ public class AgentesExecute {
             System.out.println("NO PUEDE PASAR ----> Recibi la imagen "+img.getFuente());
         }
 
+        System.out.println("===========SECOND CHANGE===========");
+        System.out.println("### Simulating process about another person in this case ###");
+
+        if (ae.codigo == 100 && ar.codigo == 200 && flag){
+
+            System.out.println("NO Esta puesto mascarilla");
+            if (t.getValorTemperatura().equalsIgnoreCase("37")){
+                System.out.println("Su temperatura es: "+t.getValorTemperatura());
+                System.out.println("PUEDE PASAR ----> Recibi la imagen "+img.getFuente());
+            }else{
+                System.out.println("Su Temperatura no es apta para el ingreso");
+                System.out.println("NO PUEDE PASAR ----> TEMPERATURA MUY ALTA");
+            }
+        }else{
+            System.out.println("NO Esta puesto mascarilla");
+            if (!t.getValorTemperatura().equalsIgnoreCase("37")){
+                System.out.println("Su temperatura es: "+t.getValorTemperatura());
+            }
+            System.out.println("NO PUEDE PASAR ----> Recibi la imagen "+img.getFuente());
+        }
+
         System.out.println("Finaliza proceso de Agente Receptor");
     }
 }
