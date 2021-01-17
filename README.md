@@ -8,7 +8,7 @@ JUnit
 
 Mockito
 
-### FIRST OUTPUTS without changes
+### 1.- OUTPUTS without changes
   #### AgentesExecute
   
   ![Screenshot](AgentesExecute.png)
@@ -17,7 +17,7 @@ Mockito
   
   ![Screenshot](JAR_Execute.png)
 
-### SECOND OUTPUTS with FIRST change
+### 2.- OUTPUTS with FIRST change
   #### AgentesExecute
   
   ![Screenshot](AgentesExecute_FirstChange.png)
@@ -25,3 +25,12 @@ Mockito
   ### JAR Execute
   
   ![Screenshot](JAR_Execute_FirstChange.png)
+
+### 3.- OUTPUTS with SECOND change
+  #### AgentesExecute
+  
+  ![Screenshot](SecondChange_AG.png)
+  
+  ### JAR Execute
+  
+  ![Screenshot](SecondChange_JAR.png)
