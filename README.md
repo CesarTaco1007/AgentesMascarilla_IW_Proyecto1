@@ -1,5 +1,6 @@
 # AgentesMascarilla_IW_Proyecto1
 Mask detect simulation in java and jenkins 
+wihtout JADE library, burn data
 
 ### dependencies:
 JAVA 8 
